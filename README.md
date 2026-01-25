@@ -109,4 +109,3 @@ Graduated: December 2025
 📍 San Diego, CA  
 📧 andrewwkangg@gmail.com  
 📱 (858) 880-8636  
-💼 [LinkedIn](linkedin)
