@@ -11,7 +11,7 @@
 ### Data Analyst (Oct 2022 — Jun 2024)
 **Korean American Student Association at UCR**
 
-Analyzed member engagement data across 100+ events to identify trends that informed strategic planning and increased participation by over 50%. Created data visualizations and reports to communicate insights to club leadership, and tracked budget allocation to optimize resource distribution for future events.
+Analyzed member engagement data across 200+ events to identify trends that informed strategic planning and increased participation by over 150%. Created data visualizations and reports to communicate insights to club leadership, and tracked budget allocation to optimize resource distribution for future events.
 
 ---
 
