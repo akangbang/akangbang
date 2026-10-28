@@ -17,6 +17,31 @@ Analyzed member engagement data across 200+ events to identify trends that infor
 
 ## Featured Projects
 
+### 🎮 Halftime: CS2 Decision Coach (Sep 2026 — Present)
+
+**Project Description**
+
+End-to-end analytics app that turns Counter-Strike 2 match recordings into coaching feedback on the decisions players control. It parses each demo file into round, player, death and position data, stores it in PostgreSQL, and grades every death, every teammate-coverage moment and every force-or-save buy call, explaining each verdict with the numbers behind it.
+
+**Technical Stack**
+
+Python, pandas, NumPy, PostgreSQL, Docker, Streamlit, Altair, demoparser2, pytest
+
+**Highlights**
+
+- Built a parsing pipeline that extracts player positions and aim angles at every death (1,554 deaths and 3,597 teammate snapshots across the current match pool)
+- Fit logistic regression models (Newton's method, NumPy) for round win probability from players alive and bomb status, and for trade probability from distance and aim angle
+- Found that only 12% of deaths are traded within 2 seconds, and that facing the fight raises a nearby teammate's trade chance from 2% to 42%
+- Simulated CS2's in-game economy to compare forcing vs. saving up to four rounds ahead; the money model predicts next-round funds within $100 per player (median error)
+- Interactive dashboard with plain-language scorecards, a coverage grade explained through a trade-zone scatter plot, and per-match habit trends
+- 84 automated tests covering parsing, models, database and UI
+
+**Repository**
+
+[Link](https://github.com/akangbang/cs2-insights)
+
+---
+
 ### 📊 Data Analysis on YouTube Trending Videos (Sep 2025 — Dec 2025)
 
 **Project Description**
@@ -84,13 +109,13 @@ RMSE/MSE model evaluation, bias detection through statistical analysis, data-dri
 
 ## Technical Skills
 
-**Languages & Tools:** Python, R, SQL, Git, Jupyter Notebook
+**Languages & Tools:** Python, R, SQL, Git, Jupyter Notebook, Docker, pytest
 
 **Data Science:** pandas, NumPy, scikit-learn, PySpark, TensorFlow
 
-**Analytics & Visualization:** Tableau, Power BI, Excel, Plotly, matplotlib, seaborn
+**Analytics & Visualization:** Tableau, Power BI, Excel, Plotly, matplotlib, seaborn, Streamlit, Altair
 
-**Cloud & Databases:** AWS (S3), Apache Spark, MySQL
+**Cloud & Databases:** AWS (S3), Apache Spark, MySQL, PostgreSQL
 
 **Core Competencies:** Data Cleaning, Statistical Modeling, Regression Analysis, Machine Learning, Data Visualization, Query Optimization, Distributed Computing
 
@@ -108,4 +133,4 @@ Graduated: December 2025
 
 📍 San Diego, CA  
 📧 andrewwkangg@gmail.com  
-📱 (858) 880-8636  
+📱 (858) 880-8636
